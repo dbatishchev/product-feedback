@@ -1,0 +1,9 @@
+.toolbar {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .toolbar {
+        margin-bottom: 0;
+    }
+}

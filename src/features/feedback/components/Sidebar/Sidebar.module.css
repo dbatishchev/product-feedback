@@ -1,0 +1,51 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        flex-direction: column;
+    }
+}
+
+.widgetsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.filters {
+    flex: 1 1 0;
+}
+
+.summary {
+    flex: 1 1 0;
+}
+
+.header {
+
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.headerBtn {
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

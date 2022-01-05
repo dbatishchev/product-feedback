@@ -1,0 +1,30 @@
+.status {
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+    display: inline-flex;
+    align-items: center;
+
+    --color: red;
+}
+
+.status:before {
+    content: '';
+    background: var(--color);
+    width: 8px;
+    height: 8px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+.planned {
+    --color: #F49F85;
+}
+
+.inprogress {
+    --color: #AD1FEA;
+}
+
+.live {
+    --color: #62BCFA;
+}

@@ -1,0 +1,33 @@
+
+.column {
+
+}
+
+.columnHeader {
+    margin-bottom: 8px;
+}
+
+.columnTitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+    margin-bottom: 4px;
+}
+
+.columnSubTitle {
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+}
+
+.columnContent {
+    display: flex;
+    flex-direction: column;
+    /*gap: 24px; can't be used because of dnd lib */
+}
+
+.columnContent > * {
+    margin-top: 24px;
+}

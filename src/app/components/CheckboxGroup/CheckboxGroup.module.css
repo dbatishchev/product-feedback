@@ -1,0 +1,37 @@
+.checkboxLabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+    padding: 12px 24px;
+    border-bottom: thin solid #E1E3EB;
+    cursor: pointer;
+}
+
+.checkboxLabel:hover {
+    color: #AD1FEA;
+}
+
+.checkboxLabel:last-child {
+    border-bottom: none;
+}
+
+.checkbox {
+    appearance: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    display: grid;
+    place-content: center;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.checkbox:checked:after {
+    content: '';
+    height: 10px;
+    width: 13px;
+    background-image: url("data:image/svg+xml;utf8,<svg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0.96875 4.85894L4.50044 8.39062L12.0004 0.890625' stroke='%23AD1FEA' stroke-width='2'/></svg>");
+}

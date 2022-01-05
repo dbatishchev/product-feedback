@@ -1,0 +1,74 @@
+.comment {
+    display: grid;
+    grid-template-areas:
+        'avatar user-info controls'
+        'avatar text text'
+        'replies replies replies';
+    grid-template-columns: min-content 1fr 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        grid-template-areas:
+            'avatar user-info controls'
+            'text text text'
+            'replies replies replies';
+    }
+}
+
+.avatar {
+    grid-area: avatar;
+}
+
+.userInfo {
+    grid-area: user-info;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.194444px;
+    color: #3A4374;
+}
+
+.email {
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+}
+
+.controls {
+    grid-area: controls;
+    justify-self: flex-end;
+}
+
+.text {
+    grid-area: text;
+    font-size: 15px;
+    line-height: 22px;
+    color: #647196;
+}
+
+.reply {
+    appearance: none;
+    background: transparent;
+    border: none;
+
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4661E6;
+}
+
+.replies {
+    grid-area: replies;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 45px;
+}

@@ -1,0 +1,32 @@
+.select {
+    position: relative;
+    cursor: pointer;
+    background: #F7F8FD;
+    border-radius: 5px;
+    padding: 13px 24px;
+
+    font-size: 15px;
+    line-height: 22px;
+    color: #3A4374;
+}
+
+.popover {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.350492);
+    border-radius: 10px;
+    min-width: 255px;
+    width: 100%;
+    left: 0;
+}
+
+.select:focus-within {
+
+}
+
+.select:focus-within .popover {
+    display: block;
+}

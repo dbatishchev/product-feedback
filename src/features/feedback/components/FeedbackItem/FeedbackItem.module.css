@@ -1,0 +1,77 @@
+.item {
+    display: grid;
+    grid-template-areas:
+        'voter title title title comments'
+        'voter description description description comments'
+        'voter tags tags tags comments';
+    grid-template-columns: 80px 1fr 100px;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        grid-template-areas:
+            'title title'
+            'description description'
+            'tags tags'
+            'voter comments';
+        grid-template-columns: 1fr 1fr;
+        row-gap: 8px;
+    }
+}
+
+.title {
+    grid-area: title;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+    text-decoration: none;
+}
+
+.title a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.description {
+    grid-area: description;
+
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+}
+
+.comments {
+    grid-area: comments;
+
+    margin-left: auto;
+}
+
+.voter {
+    grid-area: voter;
+}
+
+.tags {
+    grid-area: tags;
+}
+
+@media screen and (min-width: 769px) {
+    .tags {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .voter {
+        margin-top: 8px;
+    }
+
+    .comments {
+        margin-top: 8px;
+    }
+}

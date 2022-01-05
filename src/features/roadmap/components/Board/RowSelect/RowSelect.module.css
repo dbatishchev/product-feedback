@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    margin: 0 -24px;
+    border-bottom: thin solid #DBDFEB;
+}
+
+.item {
+    flex: 1 1 auto;
+    padding: 20px;
+
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.180556px;
+
+    color: #ABB0C8;
+}
+
+.active {
+    color: #3A4374;
+    opacity: 1;
+
+    border-bottom: 6px solid var(--color);
+}

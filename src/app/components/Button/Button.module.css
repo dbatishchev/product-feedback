@@ -1,0 +1,64 @@
+.btn {
+    font-family: 'Jost', sans-serif;
+    padding: 12px 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.withIcon {
+    /*padding: 8px 24px 8px 8px;*/
+}
+
+.primary {
+    background: #AD1FEA;
+    color: #F2F4FE;
+}
+
+.primary:hover {
+    background: #C75AF6;
+}
+
+.faint {
+    background: #4661E6;
+    color: #F2F4FE;
+}
+
+.faint:hover {
+    background: #7C91F9;
+}
+
+.dark {
+    background: #3A4374;
+    color: #F2F4FE;
+}
+
+.dark:hover {
+    background: #656EA3;
+}
+
+.warning {
+    background: #D73737;
+    color: #F2F4FE;
+}
+
+.warning:hover {
+    background: #E98888;
+}
+
+.icon {
+    /*width: 32px;*/
+    /*height: 32px;*/
+    /*background: #FFFFFF;*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*border-radius: 50%;*/
+    margin-right: 1ch;
+}

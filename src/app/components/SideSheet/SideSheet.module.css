@@ -1,0 +1,35 @@
+.sideSheet {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: var(--header-height);
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: #000000;
+    opacity: 0.5;
+}
+
+.body {
+    background: #F7F8FD;
+
+    width: 360px;
+    height: 100vh;
+    position: fixed;
+    top: var(--header-height); /* todo */
+    right: 0;
+    padding: 24px;
+
+    /*transform: translateX(-100%);*/
+    /*animation-duration: 0.2s;*/
+    /*animation-name: slideIn;*/
+    /*animation-fill-mode: forwards; !* https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode *!*/
+
+    /*overflow-y: auto;*/
+}

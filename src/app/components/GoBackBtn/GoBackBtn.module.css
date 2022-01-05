@@ -1,0 +1,21 @@
+.goBackBtn {
+    appearance: none;
+    background: none;
+    border: none;
+
+    font-family: Jost, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+
+    cursor: pointer;
+}
+
+.goBackBtn span {
+    margin-left: 28px;
+}
+
+.goBackBtn path {
+    stroke: currentColor;
+}

@@ -1,0 +1,26 @@
+.btn {
+    color: #C2C7DA;
+    position: relative;
+    cursor: pointer;
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.popover {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.350492);
+    border-radius: 10px;
+    min-width: 255px;
+}
+
+.btn:focus-within {
+
+}
+
+.btn:focus-within .popover {
+    display: block;
+}

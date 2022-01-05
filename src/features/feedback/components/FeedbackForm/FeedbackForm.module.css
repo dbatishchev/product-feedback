@@ -1,0 +1,48 @@
+.formContainer {
+   margin-top: 68px;
+}
+
+.bigIconContainer {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.bigIcon {
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    position: absolute;
+    top: calc(-52px - 24px);
+}
+
+.bigIcon text {
+    fill: white;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.333333px;
+    color: #3A4374;
+
+    margin-bottom: 40px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}

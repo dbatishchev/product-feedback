@@ -1,0 +1,19 @@
+.commentList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.commentList li {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E2E4ED;
+}
+
+.commentList li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}

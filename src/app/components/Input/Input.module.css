@@ -1,0 +1,56 @@
+.input {
+    border: none;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+
+    font-family: Jost, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3A4374;
+
+    width: 100%;
+    max-width: 100%;
+    padding: 16px 24px;
+}
+
+.container {
+    border: 1px solid transparent;
+    background: #F7F8FD;
+    border-radius: 5px;
+}
+
+.containerThin {
+    padding: 16px 0px;
+    border: none;
+    background: none;
+}
+
+.containerWithError {
+    border-color: #D73737;
+}
+
+.container:focus-within {
+    border-color: #7C5DFA;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.iconBefore {
+
+}
+
+.iconAfter {
+    right: 24px;
+}

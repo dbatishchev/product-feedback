@@ -1,0 +1,45 @@
+.toolbar {
+    padding: 14px 16px 14px 24px;
+    background: #373F68;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .toolbar {
+        top: var(--header-height);
+        border-radius: 0;
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 768px){
+    .icon {
+        display: none;
+    }
+}
+
+.goBack {
+    margin-bottom: 4px;
+    color: white !important;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+
+.controls {
+    margin-left: auto;
+}

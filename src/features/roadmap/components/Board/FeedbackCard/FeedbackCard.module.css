@@ -1,0 +1,54 @@
+.item {
+    padding: 20px 20px 24px 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    border-top: 6px solid var(--item-color);
+}
+
+.itemIsDragging {
+    user-select: none;
+    background: #EEEEEE;
+}
+
+.feedbackPlanned {
+    --item-color: #F49F85;
+}
+
+.feedbackInprogress {
+    --item-color: #AD1FEA;
+}
+
+.feedbackLive {
+    --item-color: #62BCFA;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.180556px;
+    color: #3A4374;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 19px;
+    color: #647196;
+}
+
+.tags {
+    margin-top: 24px;
+}
+
+.footer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statusLabel {
+    margin-bottom: 8px;
+}
