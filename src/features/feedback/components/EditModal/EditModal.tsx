@@ -24,9 +24,7 @@ const EditModal: React.FC<EditModalProps> = () => {
   }
 
   return (
-    <Modal
-      active
-    >
+    <Modal active>
       <div className={styles.details}>
         <FeedbackForm feedback={feedback} />
       </div>

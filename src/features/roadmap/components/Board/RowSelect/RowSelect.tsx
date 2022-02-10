@@ -22,9 +22,9 @@ const RowSelect: React.FC<RowSelectProps> = ({ active, onClick }) => {
       {STATUS_LIST.map(({ value, label }) => (
         <div
           className={`
-          ${styles.item} 
-          ${active === value ? styles.active : ''}
-        `}
+            ${styles.item} 
+            ${active === value ? styles.active : ''}
+          `}
           key={value}
           style={{
             '--color': STATUS_COLORS[value],

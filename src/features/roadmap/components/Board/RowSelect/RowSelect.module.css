@@ -7,15 +7,11 @@
 .item {
     flex: 1 1 auto;
     padding: 20px;
-
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: -0.180556px;
-
     color: #ABB0C8;
 }
 
