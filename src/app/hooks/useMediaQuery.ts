@@ -5,7 +5,7 @@ const useMediaQuery = (query: string) => {
 
   useLayoutEffect(() => {
     const media = window.matchMedia(query);
-    if (media.matches !== matches) {
+    if (media && media.matches !== matches) {
       setMatches(media.matches);
     }
 
