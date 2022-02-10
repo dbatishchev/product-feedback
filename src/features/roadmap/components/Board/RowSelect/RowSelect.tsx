@@ -19,7 +19,7 @@ const RowSelect: React.FC<RowSelectProps> = ({ active, onClick }) => {
 
   return (
     <div className={styles.container}>
-      {STATUS_LIST.map(({ value, label, description }) => (
+      {STATUS_LIST.map(({ value, label }) => (
         <div
           className={`
           ${styles.item} 

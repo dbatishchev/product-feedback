@@ -21,6 +21,12 @@ export const STATUS_COLORS: Record<Status, string> = {
   live: '#62BCFA',
 };
 
-export const STATUS_LIST = Object.entries(STATUS_BY_KEY).map(([value, entry]) => ({ value: value as Status, label: entry.label, description: entry.description }));
+export const STATUS_LIST = Object
+  .entries(STATUS_BY_KEY)
+  .map(([value, entry]) => ({
+    value: value as Status,
+    label: entry.label,
+    description: entry.description,
+  }));
 
 export default STATUS_BY_KEY;

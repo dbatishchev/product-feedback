@@ -52,7 +52,7 @@ const AddCommentForm: React.FC<AddCommentFormProps> = ({ feedbackId }) => {
           resetForm();
         }}
       >
-        {({ values, errors }) => (
+        {({ values }) => (
           <Form className={styles.form}>
             <div className={styles.title}>
               Add Comment

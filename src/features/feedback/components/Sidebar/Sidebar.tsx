@@ -34,6 +34,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
         className={styles.header}
         controls={isMobile && (
           <button
+            type="button"
             className={styles.headerBtn}
             onClick={handleToggleSideSheet}
           >

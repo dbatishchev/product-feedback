@@ -7,14 +7,17 @@ const FeedbackAPI = {
       .then((res) => res.json());
   },
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async upvote(id: number): Promise<any> {
     return Promise.resolve(true);
   },
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async downvote(id: number): Promise<any> {
     return Promise.resolve(true);
   },
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async changeStatus(id: number, status: Status): Promise<any> {
     return Promise.resolve(true);
   },

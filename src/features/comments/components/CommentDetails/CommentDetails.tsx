@@ -26,7 +26,7 @@ const CommentDetails: React.FC<CommentDetailsProps> = ({ comment, level = 1 }) =
       </div>
     </div>
     <div className={styles.controls}>
-      <button className={styles.reply}>Reply</button>
+      <button className={styles.reply} type="button">Reply</button>
     </div>
     <div className={styles.text}>
       {comment.content}
