@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Layout from '../Layout/Layout';
 import SuggestionsPage from '../../../features/feedback/pages/SuggestionsPage/SuggestionsPage';
