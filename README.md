@@ -1,6 +1,6 @@
 # Product feedback app
 
-// todo link to the demo
+Working app is accessible at [demo page](https://lucid-goldstine-b65c9a.netlify.app/)
 
 ### Built with
 
@@ -31,5 +31,3 @@
 - Change statuses of feedback requests on the interactive board
 
 ![Board](./docs/screen-02.png)
-
-
