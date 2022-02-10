@@ -1,6 +1,6 @@
 # Product feedback app
 
-Working app is accessible at [demo page](https://lucid-goldstine-b65c9a.netlify.app/)
+Working app is accessible at [demo page](https://product-feedback-dbatishchev.netlify.app/)
 
 ### Built with
 
