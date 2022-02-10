@@ -20,15 +20,15 @@ type ChipProps = {
   active?: boolean,
   onClick?: () => void,
   className?: string,
-  type?: 'submit' | 'button',
   color?: COLOR,
   icon?: React.ReactNode,
 };
 
 const Chip: React.FC<ChipProps> = ({
-  children, active = false, onClick, className = '', type = 'button', color = COLOR.primary, icon,
+  children, active = false, onClick, className = '', color = COLOR.primary, icon,
 }) => (
   <button
+    type="button"
     className={`
       ${styles.chip}
       ${COLOR_CLASSNAMES[color]}

@@ -7,12 +7,13 @@ import type { RootState } from '../../../app/store';
 type FiltersState = {
   sort: Sort,
   categories: Category[],
-  status?: Status,
+  status: Status | null,
 };
 
 const initialState: FiltersState = {
   sort: 'upvotes-desc',
   categories: [],
+  status: null,
 };
 
 const filtersSlice = createSlice({
