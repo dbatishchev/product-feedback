@@ -31,7 +31,7 @@ const SuggestionsPage: React.FC<SuggestionsPageProps> = () => {
     if (feedbacksStatus === 'idle') {
       dispatch(fetchFeedbacks());
     }
-  }, [dispatch]);
+  }, []);
 
   const handleSortChange = (val: Sort | Sort[]) => {
     dispatch(sortChanged(val as Sort));

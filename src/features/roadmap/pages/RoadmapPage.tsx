@@ -17,7 +17,7 @@ const RoadmapPage: React.FC<RoadmapPageProps> = () => {
     if (feedbacksStatus === 'idle') {
       dispatch(fetchFeedbacks());
     }
-  }, [dispatch]);
+  }, []);
 
   if (feedbacksStatus !== 'succeeded') {
     return null;
